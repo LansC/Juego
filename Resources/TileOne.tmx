@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="60" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Sidewalk_dark" tilewidth="32" tileheight="32">
+  <image source="Skorpio's Pack/Sidewalk_dark.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="Street" tilewidth="32" tileheight="32">
+  <image source="Skorpio's Pack/Street.png" width="800" height="608"/>
+ </tileset>
+ <tileset firstgid="492" name="Cars_final" tilewidth="32" tileheight="32">
+  <image source="Skorpio's Pack/Cars_final.png" width="384" height="352"/>
+ </tileset>
+ <tileset firstgid="624" name="Sidewalk_dark" tilewidth="32" tileheight="32">
+  <image source="Skorpio's Pack/Sidewalk_dark.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="640" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="Skorpio's Pack/meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="642" name="diamon" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="Skorpio's Pack/diamon.png" width="960" height="640"/>
+ </tileset>
+ <tileset firstgid="1193" name="ball_2" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="Skorpio's Pack/ball_2.png" width="299" height="387"/>
+ </tileset>
+ <tileset firstgid="1292" name="Fire" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="Skorpio's Pack/Fire/Fire.png" width="192" height="64"/>
+ </tileset>
+ <tileset firstgid="1297" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="1345" name="CloseSelected" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="CloseSelected.png" width="40" height="40"/>
+ </tileset>
+ <layer name="Background" width="40" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztWtsNgzAMDCP0MUVpp+hjikL3ZI0u1CCBFEUh+AwmVLqP+4FzEh+xL1HbVc51Rjg4544eJ6eP+1Z2uPjxG48rOE8YZ6VdN8xzVswTxlnrp5knjBu/tQXqYZ5aGdevr19r63GL0CSe5TDFfyvH/Qzru3s8IoR5x+9SkPJR3tS+QPeNlK/hrVF3Ur6GR/2oH/Xbl35zflKy/6W8KucfKf9FfTPMV6qf1D+mckJ9c8x37f2X8l/UN1H9ltYvmvfW9YvmvXX/o37Uj/r9h36S++Wc30n9EOXl/C3Ga+F7lJe7X2r9zeJ+uff9x/qlfux/7H/sf6xf6kf9qB/1o35yHs8v5c8vUpQ6v0hRqn6lKFW/1G+/+q3R/9D/PVj0v/j3Gi2k4yD9rxSeHj/CB3nB
+  </data>
+ </layer>
+ <objectgroup name="Meta" width="40" height="60" visible="0">
+  <object x="258" y="223" width="286" height="288">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="0" y="225" width="160" height="287">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="0" y="3" width="737" height="127">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </object>
+  <object x="1" y="609" width="287" height="252">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="384" y="607" width="161" height="259">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="0" y="961" width="288" height="159">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="385" y="959" width="157" height="160">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="0" y="1216" width="288" height="351">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="1" y="1663" width="287" height="160">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="384" y="1219" width="161" height="348">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="383" y="1663" width="481" height="161">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="639" y="1217" width="225" height="352">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="963" y="1663" width="220" height="161">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="960" y="1217" width="224" height="351">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="640" y="960" width="224" height="163">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="959" y="959" width="225" height="161">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="959" y="543" width="227" height="320">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="957" y="225" width="227" height="221">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="639" y="225" width="225" height="637">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </object>
+  <object x="833" y="1" width="351" height="128">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </object>
+  <object x="422" y="374"/>
+  <object x="85" y="669" width="1"/>
+  <object x="408" y="627" width="1" height="1"/>
+  <object x="249" y="1267"/>
+  <object x="1137" y="173"/>
+ </objectgroup>
+ <objectgroup name="Objects" width="40" height="60">
+  <object name="SpawnPoint" x="79" y="141" width="36" height="36"/>
+ </objectgroup>
+ <layer name="Foreground" width="40" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1NENwCAIBUB/Olj3X8oFTKvGxoJ335pAHlAKf3ZfuytgxEherbdv/6PMQ5Q6TyEPOMOKXc90LzL1AsT11S1y4+J7yrAn35kZMDewnz0EAACAvCojlgSn
+  </data>
+ </layer>
+ <layer name="Meta" width="40" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztmEEOgCAMBA0vx597rYniFlapZSfhYkoZsAS0lm2rLzXLF/0y+u0ltt/o+mVjd8zvKvapvyf/TFp1a2HWGStu1O+K2X72fUT0u/OQn/wi+qHM8GOcEb052OvHwM6FXX9sPH5onLe+WPtXfvKT3/k58x5mx/fct9FxmX6teDRfT9yfaJ25yHncc2b/5Xvyjuj1Jz/5IX7If74eP5GbVfaH/OQnP/nJby0/kRtG/aENzSM/+UXxE7k5AMMyOnY=
+  </data>
+ </layer>
+</map>
